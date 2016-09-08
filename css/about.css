@@ -1,0 +1,114 @@
+
+.about-wrapper {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.members {
+  width: 100vw;  
+  margin: 0 5%;
+}
+/* --- ABOUT --- */
+  
+.about {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* --- THE TEAM--- */
+
+.thumb {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.thumb img {
+    max-width: 100%;
+}
+.thumb > div {
+    background-color: rgba(0,0,0,0.75);
+    background-size: cover;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+}
+.thumb:hover > div {
+    display: block;
+    opacity: 1.0;
+}
+.thumb > div div {
+    padding: 30% 15%;
+}
+.thumb p {
+    margin-bottom: 10px;
+}
+.thumb a {
+  margin-right: 5px;
+  color: #fff;
+    -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+}
+.thumb a:hover {
+  color: #ff4040;
+}
+
+/* THE TEAM PT.2 --MEMBER & POSITION-- */
+
+.member h2 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+.member-position h4 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .members {
+  margin: 0 auto;
+  }
+  .thumb {
+    width: 100%;
+  } 
+  .thumb div div {
+    font-size: 30px;
+  }
+  .rubrik > h1 {
+    letter-spacing: 10px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  
+  .thumb i {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+   .thumb i {
+    font-size: 24px;
+  }
+}

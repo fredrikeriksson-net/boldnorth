@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boldnorth</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+	<!-- SMOOTH SCROLL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <!-- End of SMOOTH SCROLL -->
+	
+</head>
+<body>
+    <header>
+            <img src="./img/mobile_logo_white.png" alt="Bold North" class="mobile">
+            <img src="./img/desktop_logo_white.png" alt="Bold North" class="desktop">
+        <nav>
+            <ul>
+                <li><a class="slide" href="#services">Våra tjänster</a></li>
+                <li><a class="slide" href="#cases">Cases</a> </li>
+                <li><a class="slide" href="#about">Om oss</a></li>
+                <li><a class="slide" href=" #contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+        <div class="clear">
+        </div>
+        
+        <section class="intro">
+            <p>Vi gör hemsidor för dig.</p>
+            <p>Inget uppdrag är för stort eller för litet för oss.</p>
+            <p>Vi skräddarsyr hemsidan efter era behov.</p>
+        </section>
+
+    </header>
+    <main>
+<section class="services" id="services">
+    
+    <div class="rubrik">
+     <h1 id="services">Våra tjänster</h1>
+    <hr>
+    </div>
+    
+   
+
+    <div class="fig">
+        <figure class="html">
+            <img src="./img/html.png">
+            <figcaption>
+                <p><em>HTML5</em> är den senaste standarden för märkspråken HTML och XHTML. Denna version fastställdes som slutgiltig och rekommenderad av organisationen World Wide Web Consortium (W3C) den 28 Oktober 2014. Standarden påbörjades av Web Hypertext Application Technology Working Group (WHATWG) och är den femte revisionen av HTML.</p>
+
+                <p>Ledande principer för utvecklingen är bakåtkompatibilitet med existerande HTML, tydligare beskrivningar av hur webbläsare skall tolka och rendera koden och utvidgad funktionalitet. HTML5 inkluderar tekniker för ljud, video, grafik och webbapplikationer, såväl som text och bild</p>
+            </figcaption>
+        </figure>
+
+
+        <figure class="css">
+            <img src="./img/css.png">
+            <figcaption>
+                <p><em>CSS (Cascading Style Sheets)</em> är ett språk som beskriver presentationsstilen för ett strukturerat dokument som till exempel typsnitt, textstorlek och färg. Tekniken är ett sätt att anpassa dokumentet med hänsyn till datortyp, skärmupplösning, färgdjup och installerade typsnitt.</p>
+                <p>Ett HTML-baserat dokument har inte på förhand en given utformning utan består av strukturerad text utan stilinformation. Hur dokumentet skrivs ut på papper, på en webbsida, på displayen i en mobiltelefon eller en handdator, bestäms normalt av programmet som hanterar dokumentet (t.ex. webbläsaren), utgående från programmets inställningar.</p>
+            </figcaption>
+        </figure>
+
+        <figure class="js">
+            <img src="./img/js.PNG">
+            <figcaption>
+                <p><em>Javascript</em> är ett skriptspråk som är dynamiskt och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares javascript-motor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM). Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.</p>
+            </figcaption>
+        </figure>
+
+        <figure class="wp">
+            <img src="./img/wp.png">
+            <figcaption>
+                <p><em>Wordpress</em> ofta versaliserat WordPress, är ett blogg- och innehållshanteringssystem skrivet i PHP och som använder databasen MySQL för datalagringen. Det distribueras under en GNU General public-licens och kan laddas ner och användas kostnadsfritt. Det är ett av de populäraste publiceringssystemen på marknaden och finns på tusentals bloggar och webbplatser.</p>
+
+                <p>Wordpress har under åren utvecklats från ett bloggsystem till att även kunna hantera hela webbplatser likt ett mer avancerat CMS-system. Eftersom innehållet på alla sidor blir tillgängligt via en inloggningssida behöver man inte någon FTP-klient för att kunna redigera och uppdatera sina sidor på webbplatsen.</p>
+                
+            </figcaption>
+        </figure>
+
+    </div>
+    
+</section>
+        <section class="cases clear" id="cases">
+            <header class="rubrik">
+                <h1>Cases</h1>
+                <hr>
+            </header>
+            <ul class="case-wrapper">
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="case-item">
+                    <img src="./img/city-q-c-800-400-4.jpg" alt="New York skyline">
+                    <div class="back">
+                        <h3>Project 1</h3>
+                        <p>Donec imperdiet purus vel orci luctus feugiat. Vivamus a sem in mauris scelerisque ornare a eget nisl. Maecenas non turpis vitae purus ultricies convallis sed ut lectus.</p>
+                        <ul class="project-links">
+							<li><a href="#"><i class="fa fa-github fa-lg"></i>github</a></li>
+                            <li><a href="#"><i class="fa fa-link fa-lg"></i>url</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <div class="row">
+      <div class="about-wrapper" id="about">
+<article class="col-12 about">
+      <div class="rubrik">
+      <h1>OM OSS</h1>
+    <hr>
+    </div>
+  <p>Boldnorth är en webbyrå inriktad på att bygga websidelösningar för småföretag.<br>
+    
+Som vill förbättra sin verksamhets synlighet på webben,<br> eller som vill ha en mer professionell lösning(uppfräschning), av deras tidigare hemsida.<br>
+    
+Många småföretag har ofta hemma snickrade hemsidor, hemsidor från tidigt 2000-tal eller liknande.<br>
+
+Förutom att bygga väl designade hemsidor i Front end och i vissa fall med Wordpress <br>
+
+erbjuder vi en helhets lösning då vi också hostar hemsidorna på egna servrar vi har hand om.</p>
+</article>
+  </div>
+        </div>
+        <div class="rubrik">
+      <h1>VILKA VI ÄR</h1>
+    <hr>
+    </div>
+       <div class="members">
+  <!-- Member John -->
+  <section class="col-3">
+    <div class="thumb">
+        <img src="img/user0.jpg" title="John Doe" alt="John Doe" />
+        <div>
+            <div>
+      <a href="http://facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="http://twitter.com" ><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="http://github.com"><i class="fa fa-github fa-lg"></i></a>
+      <a href="http://googleplus.com"><i class="fa fa-google-plus fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+  <div class="member"><h2>John Doe</h2></div>
+    <div class="member-position"><h4>Utvecklare</h4></div>
+  </section>
+  
+  <!-- Member Jane -->
+    <section class="col-3">
+    <div class="thumb">
+        <img src="img/user1.jpg" title="Jane Doe" alt="Jane Doe" />
+        <div>
+            <div>          
+      <a href="http://facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="http://twitter.com" ><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="http://github.com"><i class="fa fa-github fa-lg"></i></a>
+      <a href="http://googleplus.com"><i class="fa fa-google-plus fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="member"><h2>Jane Doe</h2></div>
+    <div class="member-position"><h4>Utvecklare</h4></div>
+  </section>
+  
+  <!-- Member Mike -->
+    <section class="col-3">
+    <div class="thumb">
+        <img src="img/user2.jpg" title="Mike Doe" alt="Mike Doe" />
+        <div>
+            <div>
+      <a href="http://facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="http://twitter.com" ><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="http://github.com"><i class="fa fa-github fa-lg"></i></a>
+      <a href="http://googleplus.com"><i class="fa fa-google-plus fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="member"><h2>Mike Doe</h2></div>
+    <div class="member-position"><h4>Utvecklare</h4></div>
+  </section>
+  
+  <!-- Member Rupert -->
+    <section class="col-3">
+    <div class="thumb">
+        <img src="img/user3.jpg" title="Rupert Doe" alt="Rupert Doe" />
+        <div>
+            <div>
+      <a href="http://facebook.com"><i class="fa fa-facebook fa-lg"></i></a>
+      <a href="http://twitter.com" ><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="http://github.com"><i class="fa fa-github fa-lg"></i></a>
+      <a href="http://googleplus.com"><i class="fa fa-google-plus fa-lg"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="member"><h2>Rupert Doe</h2></div>
+    <div class="member-position"><h4>Utvecklare</h4></div>
+  </section>
+      </div>
+        
+		<div class="clear"></div>
+		<div class="contact-wrapper" id="contact">
+			<section class="contact-info">
+			<form action="index.html" method="get">
+				
+					<h1>KONTAKTA OSS</h1>
+					<hr>
+					<fieldset class="contact">
+						<legend>Kontaktinformation</legend>
+						<label for="fname">Förnamn</label>
+						<input type="text" id="fname" name="first_name">
+
+						<label for="lname">Efternamn</label>
+						<input type="text" id="lname" name="last_name">
+
+						<label for="email">E-post</label>
+						<input type="email" id="email" name="email">
+					</fieldset>
+					<fieldset class="message">
+						<legend>Meddelande</legend>
+						<label>Skriv ett meddelande</label>
+						<textarea class="message" name="user_message"></textarea>
+						<button type="submit">Skicka</button>
+					</fieldset>
+				</form>
+				<h1>HITTA HIT</h1>
+				<hr>
+				<div class="map lighten">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2022.7422877524887!2d18.073412452047325!3d59.537385701275035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9749a5b9292f%3A0x2aa15bc12e56714d!2sFornminnesv%C3%A4gen+5%2C+186+32+Vallentuna!5e0!3m2!1sen!2sse!4v1453201802115" 
+					 allowfullscreen>
+				</iframe>
+				</div>
+			</section>
+		</div>
+    </main>
+    <footer class="clear">
+        <section>
+			<div class="footer-content">
+				<img src="img/footer_logo.png" alt="logotype">
+				<p>&copy; 2016 Bold North<br>All Rights Reserved</p>
+			</div>
+        </section>
+        <section>
+			<div class="footer-content">
+				<h1>KONTAKT</h1>
+				<p>Sjumilavägen 8<br>
+				   186 79 Sjumilaskogen<br>
+				   Tel: 055-55 55 55<br>
+				   <a href=“boldnorth@hotmail.com”>Skicka ett mejl</a>
+				</p>
+			</div>
+        </section>
+        <section>
+        	<div class="footer-content">
+				<h1>SOCIALA MEDIER</h1>
+				<div class="social">
+					<a href="http://www.facebook.com">
+						<img class="tilt darken" src="img/social/1453470509_social_media_icons_elance_2-01.png" alt="facebook">
+					</a>
+				</div>
+				<div class="social">
+					<a href="#">
+						<img class="tilt darken" src="img/social/1453470567_social_media_icons_elance_2-05.png" alt="twitter">
+					</a>
+				</div>
+				<div class="social">
+					<a href="#">
+						<img class="tilt darken" src="img/social/1453470576_social_media_icons_elance_2-08.png" alt="linkedin">
+					</a>
+				</div>
+				<div class="social">
+					<a href="#">
+						<img class="tilt darken" src="img/social/1453470588_social_media_icons_elance_2-03.png" alt="googleplus">
+					</a>
+				</div>
+			</div>
+        </section>
+    </footer>
+</body>
+</html>

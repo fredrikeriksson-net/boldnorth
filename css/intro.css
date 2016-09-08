@@ -1,0 +1,35 @@
+/* INTRO TEXT */
+
+.intro {
+    width: 86%;
+    margin: 0 auto;
+    }
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+    margin: 5% 0;
+    color: #FFF;
+    }
+
+@media screen and (orientation:landscape) {
+
+.intro p {
+    font-size: 4vh;
+    margin: 2% 0;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+.intro p {
+    font-size: 2vw; 
+    text-align: left;
+    margin: 2% 0;
+    }
+}
+

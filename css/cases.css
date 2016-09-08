@@ -1,0 +1,84 @@
+/* Cases */
+.cases{
+    min-height: 110vh;
+    padding: 0 0 2% 0;
+}
+
+.cases header{
+    background: none;
+    height: auto;
+}
+
+.cases img{
+    width: 100%;
+    height: auto;
+}
+
+.cases h2, .cases h3{
+    margin-top: 0;
+    padding-top: 1.3em;
+}
+
+.case-wrapper{
+    width: 95%;
+    margin: 0 auto;
+    list-style: none;
+	padding: 0;
+}
+
+.case-item{
+    min-height: 400px;
+	height: auto;
+    background: #ebebeb;
+    position: relative;
+    margin: 3%;
+}
+
+.case-item img{
+    display: block;
+    height: 200px;
+}
+
+.back{
+    padding: 2%;
+}
+
+.project-links{
+    list-style: none;
+    color: #fff;
+    padding: 0;
+}
+
+.project-links li{
+    display: inline-block;
+    padding: 2%;
+    width: 80px;
+    background: #333;
+}
+
+.project-links li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.project-links li a:hover{
+	text-decoration: underline;
+}
+
+.project-links li a i{
+	margin-right: 6px;
+}
+
+@media screen and (min-width: 768px) {
+	.case-item{
+		width: 44%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+    .case-item{
+        width: 31%;
+        margin: 1%;
+    }
+}

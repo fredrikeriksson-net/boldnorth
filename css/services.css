@@ -1,0 +1,61 @@
+/* VÅRA TJÄNSTER */
+
+section.services {
+    background: #FFF;
+    height: 100vh;
+    width: 100vw;
+    }
+
+section.services h2 {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    }
+
+/* IKONER OCH BESKRIVNING */
+
+figure {
+    float: left;
+    margin: 10px auto;
+    }
+
+figure.css:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+figure.wp:after {
+    display: table;
+    content: "";
+    clear: both;
+    }
+
+section.services figure img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border: solid 2px #000;
+    border-radius: 100%;
+    padding: 2%;
+    background: #FFF;
+    }
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    width: 80%;
+    margin: 10% auto;
+    }
+
+@media screen and (min-width: 768px) {
+    
+figure {
+    width: 25%;
+    margin: 5% auto;
+    }
+    
+section.services figure img {
+    width: 50%;
+    }
+}
